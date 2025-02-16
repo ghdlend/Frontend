@@ -10,21 +10,17 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: aliceblue;
     padding: 10px 0; 
     z-index: 1000;
 }
 
-.card {
+.card{
     text-align: center;
+    border-radius: 10px;
     background-color: skyblue;
-    border-radius: 5px;
-    width: 60%;
-    margin: 100px auto 20px; 
-    padding: 20px;
-    box-sizing: border-box;
-    height: 70vh;
-    overflow-y: auto;
+    height:70vh;
+    width:60%;
+    margin: 0 auto;
 }
 
 #TodoInput {
