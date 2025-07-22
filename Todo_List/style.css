@@ -20,16 +20,20 @@ body {
     width:60%;
     margin: 0 auto;
 }
-
+#AddBtn,#DelBtn,#TodoInput{
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
 #TodoInput {
     padding: 10px;
-    width: 70%;
+    width: 60%;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
-#AddBtn {
+#AddBtn,#DelBtn {
     padding: 10px 20px;
     background-color: blue;
     color: white;
@@ -40,7 +44,7 @@ body {
     margin-left: 10px;
 }
 
-#AddBtn:hover {
+#AddBtn:hover,#DelBtn:hover {
     background-color: darkblue;
 }
 
@@ -51,7 +55,7 @@ body {
 }
 
 #TodoList li {
-    background-color: white;
+    background-color: rgb(66, 66, 102);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;

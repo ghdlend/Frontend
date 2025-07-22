@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: top;
+    max-width: 100%;
+}
+button{
+    cursor:pointer;
+}
+body{
+    background: white;
+    color:black;
+}
+.inner{
+    width: 1200px;
+    margin:auto;
+}
+.header{
+    height:100px;
+    background-color: red;
+}
+.slide{
+    height:300px;
+    background-color: blue;
+}
+.contents{
+    height:200px;
+    display:flex;
+    background-color: orange;
+}
+.contents article{
+    width:400px;
+}
+.contents .gall{
+    background-color: green;
+}
+.footer{
+    height:100px;
+    background-color: black;
+}
